@@ -63,11 +63,41 @@
       <strong>Join us now</strong>
     </a>
 </div>
-
+<div class="lgray-bg padding-tb75">
+<div class="container">
+<div class="widget recent_posts">
+    <ul>
+      <li>
+      <div class="col-md-4 col-sm-4">
+            <a href="single-post.html" class="media-box">
+                <img src="images/post1.jpg" alt="">
+            </a>
+            <h5><a href="single-post.html">A single person can change million lives</a></h5>
+            <span class="meta-data grid-item-meta">Posted on 11th Dec, 2015</span>
+      </div>
+        <div class="col-md-4 col-sm-4">
+            <a href="single-post.html" class="media-box">
+                <img src="images/post3.jpg" alt="">
+            </a>
+            <h5><a href="single-post.html">Donate your woolens this winter</a></h5>
+            <span class="meta-data grid-item-meta">Posted on 11th Dec, 2015</span>
+      </div>
+      <div class="col-md-4 col-sm-4">
+            <a href="single-post.html" class="media-box">
+                <img src="images/post2.jpg" alt="">
+            </a>
+            <h5><a href="single-post.html">How to survive the tough path of life</a></h5>
+            <span class="meta-data grid-item-meta">Posted on 06th Dec, 2015</span>
+        </div>
+      </li>
+    </ul>
+</div>
+</div>
+</div>
 <!-- Main Content -->
 <div id="main-container">
   <div class="content">
-      <div class="lgray-bg padding-tb75">
+      <div class="lgray-bg">
           <div class="container">
                 <div class="featured-texts row">
                   <div class="featured-text col-md-4 col-sm-4">
@@ -83,7 +113,7 @@
                         <strong>217</strong>
                     </div>
                 </div>
-                <br><br>
+                <br>
                 <div class="carousel-wrapper">
                     <div class="row">
                       <div class="container">

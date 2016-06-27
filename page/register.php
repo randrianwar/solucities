@@ -36,10 +36,14 @@
         <div class="spacer-20"></div>
         <div class="container" id="openings">
           <div class="row">
+            <div class="col-md-3">
+            </div>
                 <div class="col-md-6 col-sm-6">
                   <div class="well widget widget_volunteer_form">
                       <h3>Become a volunteer</h3>
                         <form>
+                          <input type="submit" class="btn btn-primary btn-lg" value="Facebook">
+                          <br><br><h4 class="">OR</h4><br>
                           <label>Name</label>
                           <input type="text" class="form-control">
                           <label>Email</label>

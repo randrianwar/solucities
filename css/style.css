@@ -2709,7 +2709,7 @@ body.boxed .body{
 	clear:both;
 }
 .widget_links ul li.active a{
-	font-weight:700;
+	font-weight:0;
 }
 .widget .meta-data{
 	margin-top:5px;

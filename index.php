@@ -49,6 +49,8 @@
                 </div>
              	<a href="#" class="visible-sm visible-xs" id="menu-toggle"><i class="fa fa-bars"></i></a>
                 <ul class="sf-menu dd-menu pull-right" role="menu">
+
+                    <li class="<?php if ($_GET['page']=='news') { echo 'active'; } ?>"><a href="./?page=news">Problem</a></li>
                     <li class="<?php if ($_GET['page']=='create') { echo 'active'; } ?>"><a href="./?page=create">Create</a></li>
                     <li><a href="">About</a>
                     	<ul>
@@ -58,9 +60,8 @@
                     		<li class="<?php if ($_GET['page']=='contact') { echo 'active'; } ?>"><a href="./?page=contact">Contact</a></li>
                       </ul>
                     </li>
-                    <li class="<?php if ($_GET['page']=='event') { echo 'active'; } ?>"><a href="./?page=event">Projects</a></li>
-                    <li class="<?php if ($_GET['page']=='news') { echo 'active'; } ?>"><a href="./?page=news">News</a></li>
-                    <li class="<?php if ($_GET['page']=='contact') { echo 'active'; } ?>"><a href="./?page=contact">Contact</a></li>
+                    <li class="<?php if ($_GET['page']=='event') { echo 'active'; } ?>"><a href="./?page=event">Solution</a></li>
+                    <li class="<?php if ($_GET['page']=='register') { echo 'active'; } ?>"><a href="./?page=register">Sign Up</a></li>
                     <li data-toggle="modal" data-target="#login"><a>Login</a></li>
               	</ul>
             </div>
